@@ -1,0 +1,48 @@
+HTML
+---------
+Anchor element
+Form Tag Attributes
+type attribute values
+Identify Different Attributes of input elment attributes
+table attributes like rowspan, colspan, cellpadding, cellspacing, align,valign,frame,rules
+Iframe Concept.
+Find out the Layout elements 
+
+CSS
+-------
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+overflow
+icons
+z-index
+
+
+Bootstrap
+-------------
+alert
+progress bar
+nav bar
+
+Javascript
+---------------
+BigInt
+Symbol
+Javascript Strings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
