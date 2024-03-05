@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function ChangeImageToMale() {
+        var imgRef = document.getElementById("img");
+        imgRef.src =
+          "https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg";
+      }
+      function changeImage() {
+        var imgRef = document.getElementById("img");
+        imgRef.src =
+          "https://i.pinimg.com/originals/d2/91/0f/d2910fd5794ef00f0cb242a54cd04808.jpg";
+      }
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <img
+        id="img"
+        src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+        width="300"
+        height="300"
+      /><br /><br />
+      <input
+        checked
+        type="radio"
+        name="gender"
+        onclick="ChangeImageToMale()"
+      />Male <input type="radio" name="gender" onclick="changeImage()" />Female
+      <!-- <button onclick="ChangeImageToMale()">Male</button>
+      <button onclick="changeImage()">Female</button> -->
+    </div>
+  </body>
+</html>

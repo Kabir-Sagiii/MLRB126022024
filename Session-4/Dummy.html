@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function f1() {
+        var h2Ref = document.getElementById("title");
+        for (var props in h2Ref) {
+          document.write(props);
+          document.write("<br>");
+        }
+      }
+    </script>
+  </head>
+  <body onload="f1()">
+    <h2 id="title">Hello</h2>
+  </body>
+</html>
