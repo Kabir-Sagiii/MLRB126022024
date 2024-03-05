@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      function fn() {
+        document.querySelector("h2").innerText = "Hello, Javascript";
+        document.querySelector("h2").style.color = "green";
+        var h3 = document.createElement("h3");
+        h3.innerText = "I am h3";
+        document.querySelector("body").appendChild(h3);
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Welcome to HTML</h2>
+    <button onclick="fn()">Change Content and Style</button>
+  </body>
+</html>

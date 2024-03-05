@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      #container {
+        width: 800px;
+        /* height: 400px;
+        border: 2px solid red; */
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 100px 100px 100px 100px;
+      }
+      .box1 {
+        grid-column: 1 / 5;
+        grid-row: 1/2;
+        background-color: brown;
+      }
+      .box2 {
+        grid-column: 1 / 2;
+        grid-row: 2/ 4;
+        background-color: green;
+      }
+      .box3 {
+        grid-column: 1/5;
+        grid-row: 4/5;
+        background-color: blueviolet;
+      }
+      .box4 {
+        grid-column: 2 / 4;
+        grid-row: 2/4;
+        background-color: blue;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  </body>
+</html>

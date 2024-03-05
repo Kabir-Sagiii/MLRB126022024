@@ -1,0 +1,9 @@
+#container {
+  border: 2px solid red;
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  color: white;
+}
