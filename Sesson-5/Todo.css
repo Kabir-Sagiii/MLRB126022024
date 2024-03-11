@@ -1,0 +1,7 @@
+div {
+  width: 300px;
+  padding: 50px 70px;
+  text-align: center;
+  margin: 100px auto;
+  box-shadow: 0 0 10px black;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function changeColor() {
+        var h2DomNode = document.getElementById("title");
+        var selectDomNode = document.getElementById("color");
+        // console.log(selectDomNode.value);
+        h2DomNode.style.color = selectDomNode.value;
+      }
+
+      function changeSize() {
+        var h2DomNode = document.getElementById("title");
+        var selectDomNode = document.getElementById("size");
+        console.log(selectDomNode.value);
+        h2DomNode.style.fontSize = selectDomNode.value + "px";
+      }
+    </script>
+    <style>
+      div {
+        text-align: center;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <select onchange="changeColor()" id="color">
+        <option>Select the Color</option>
+        <option>red</option>
+        <option>black</option>
+        <option>green</option>
+        <option>blue</option>
+      </select>
+      <select onchange="changeSize()" id="size">
+        <option>Select the Size</option>
+        <option>10</option>
+        <option>20</option>
+        <option>30</option>
+        <option>40</option>
+      </select>
+      <h2 id="title">Change Color and Size</h2>
+    </div>
+  </body>
+</html>

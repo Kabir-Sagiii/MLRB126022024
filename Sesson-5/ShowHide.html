@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      function showHidePassword() {
+        //Logic
+        var inputDomNode = document.querySelector("#box");
+
+        var btnDomNode = document.getElementById("btn");
+        var h2Ref = document.getElementById("title");
+
+        if (inputDomNode.type === "password") {
+          inputDomNode.type = "text";
+          btnDomNode.innerText = "Hide Password";
+          h2Ref.style.color = "red";
+        } else {
+          inputDomNode.type = "password";
+          btnDomNode.innerText = "Show Password";
+          h2Ref.style.color = "green";
+        }
+      }
+    </script>
+    <style>
+      .container {
+        width: 300px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+        /* border: 2px solid black; */
+        margin: 50px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="title">Show / Hide Password</h2>
+      <input id="box" type="password" placeholder="Enter Password" />
+      <button id="btn" onclick="showHidePassword()">Show Password</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <script>
+      function createList() {
+        var ulDomNode = document.createElement("ul");
+        //<ul> </ul>
+
+        var li1 = document.createElement("li");
+        //<li> </li>
+
+        li1.innerText = "Raj Verma";
+        //<li> Raj Vemra</li>
+
+        var li2 = document.createElement("li");
+        //<li> </li>
+
+        li2.innerText = "Sonal Sharma";
+        //<li> Sonal Sharma</li>
+
+        ulDomNode.appendChild(li1);
+        //<ul><li>Raj Verma</li></ul>
+        ulDomNode.appendChild(li2);
+        //<ul><li>Raj Verma</li> <li>Sonal Sharma</li></ul>
+
+        document.querySelector("body").appendChild(ulDomNode);
+        //<body><ul><li>Raj Verma</li> <li>Sonal Sharma</li></ul></body>
+      }
+
+      //   function createh1() {
+      //     var h1DomNode = document.createElement("h1");
+      //     h1DomNode.innerText = "I am h1 created by MLRIT";
+
+      //     var bodyDomNode = document.querySelector("body");
+      //     bodyDomNode.appendChild(h1DomNode);
+      //   }
+    </script>
+  </head>
+  <body>
+    <div id="title">
+      <h2>DOM Node</h2>
+    </div>
+
+    <div class="title">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+        recusandae?
+      </p>
+    </div>
+
+    <button onclick="createh1()">Create DOM Node</button>
+    <button onclick="createList()">Create List</button>
+  </body>
+</html>
