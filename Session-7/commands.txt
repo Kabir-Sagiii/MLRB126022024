@@ -1,0 +1,16 @@
+
+     npm install create-react-app -g
+
+      npx create-react-app appdemo
+
+
+
+
+
+
+
+
+
+
+
+
