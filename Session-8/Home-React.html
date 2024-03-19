@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function CreateNav() {
+        return (
+          <div
+            style={{
+              height: "70px",
+              backgroundColor: "black",
+              padding: "10px",
+              marginBottom: "30px",
+            }}
+          >
+            <h2 style={{ color: "white" }}>{firstparameter.title}</h2>
+          </div>
+        );
+      }
+
+      function MultipleNavs() {
+        return (
+          <div>
+            <CreateNav title={"React JS"} />
+
+            <CreateNav title={"Angular "} />
+
+            <CreateNav title={"Java"} />
+            <CreateNav title={"Mongodb"} />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<MultipleNavs />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

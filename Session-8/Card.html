@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card in React</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div class="root"></div>
+    <script type="text/babel">
+      //React code
+      var card = (
+        <div
+          style={{
+            width: "250px",
+            height: "370px",
+            boxShadow: "0 0 10px red",
+            textAlign: "center",
+            padding: "10px",
+          }}
+        >
+          <img
+            src="https://th.bing.com/th/id/OIP.jFFR4uctsRfmeT5Sp1T2kQHaLH?rs=1&pid=ImgDetMain"
+            width="100%"
+            height="200"
+          />
+          <h2> Rohan Jaiswal </h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam,
+            similique.
+          </p>
+          <button>Profile</button>
+        </div>
+      );
+      ReactDOM.render(card, document.querySelector(".root"));
+    </script>
+  </body>
+</html>

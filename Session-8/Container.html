@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function createContainer(title) {
+        var containerStyle = {
+          boxShadow: "0 0 10px green",
+          padding: "20px",
+          margin: "50px",
+        };
+
+        return (
+          <div style={containerStyle}>
+            <h2>{title}</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis,
+              sapiente repellendus aut nobis, beatae optio molestiae eveniet
+              architecto odio atque aspernatur neque voluptas temporibus non
+              similique quo numquam obcaecati possimus commodi saepe!
+              Repellendus aliquid praesentium nemo suscipit consequuntur sed
+              nostrum molestiae, iure vel error assumenda, beatae corporis modi!
+              Tempora nemo iste temporibus aperiam qui esse, blanditiis
+              perferendis saepe sapiente! Voluptate totam ipsum inventore
+              voluptatibus nemo magnam repellat tenetur veritatis fugiat quidem
+              mollitia, possimus tempora incidunt cumque nesciunt a dignissimos
+              beatae consequuntur? Consequuntur quod atque asperiores ex
+              molestiae illo facilis quisquam hic fugit reiciendis! Asperiores
+              voluptas, fugit quo cum iure commodi?
+            </p>
+          </div>
+        );
+      }
+
+      function containers() {
+        return (
+          <div>
+            {createContainer("HTML")} {createContainer("CSS")}
+            {createContainer("Javascript")}
+          </div>
+        );
+      }
+
+      ReactDOM.render(containers(), document.getElementById("root"));
+    </script>
+  </body>
+</html>
