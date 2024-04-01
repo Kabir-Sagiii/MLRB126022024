@@ -1,0 +1,25 @@
+.navbarContainer {
+  background-color: black;
+  height: 70px;
+  display: flex;
+}
+.title h2 {
+  color: white;
+}
+.title {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.menus a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.menus {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
