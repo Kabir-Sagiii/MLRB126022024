@@ -1,0 +1,11 @@
+.products {
+  text-align: center;
+  margin-top: 50px;
+}
+.productsSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}

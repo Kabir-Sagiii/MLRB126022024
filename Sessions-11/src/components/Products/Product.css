@@ -1,0 +1,13 @@
+.productsCard {
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0 0 10px green;
+  text-align: center;
+}
+img {
+  transition-property: transform;
+  transition-duration: 2s;
+}
+.productsCard img:hover {
+  transform: scale(1.5, 1.5);
+}

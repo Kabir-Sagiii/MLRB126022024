@@ -1,0 +1,19 @@
+.Section3 {
+  display: flex;
+  width: 1000px;
+  justify-content: space-evenly;
+  margin: 120px auto;
+  gap: 30px;
+}
+.section3Content button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: black;
+  color: cornsilk;
+}
+.section3Content h2 {
+  margin: 5px;
+  font-size: 32px;
+}

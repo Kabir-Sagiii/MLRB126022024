@@ -1,0 +1,14 @@
+.profileContainer {
+  width: 1000px;
+  margin: 50px auto;
+  height: 430px;
+  box-shadow: 0 0 10px red;
+  display: flex;
+}
+.imageCol {
+  width: 35%;
+}
+.contentCol {
+  width: 65%;
+  padding: 30px;
+}
