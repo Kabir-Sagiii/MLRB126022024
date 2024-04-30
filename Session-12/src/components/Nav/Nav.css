@@ -1,0 +1,30 @@
+.navbarContainer {
+  background-color: whitesmoke;
+  height: 90px;
+  display: flex;
+}
+.title h2 {
+  color: rgba(22, 78, 45, 0.836);
+  font-size: 42px;
+  font-style: italic;
+}
+.title {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.menus a {
+  color: blue;
+  font-size: 19px;
+  font-style: italic;
+
+  text-decoration: none;
+  margin-right: 50px;
+}
+.menus {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}

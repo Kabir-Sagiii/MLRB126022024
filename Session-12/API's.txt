@@ -1,0 +1,27 @@
+Random Users
+------------
+https://randomuser.me/api/?results=50 ---- 50 users information
+
+All ProductsData
+-----------------
+https://fakestoreapi.com/products
+
+Jewelery Data
+---------------
+https://fakestoreapi.com/products/category/jewelery
+
+Electronic Data
+---------------
+https://fakestoreapi.com/products/category/electronics
+
+Mens Clothing Data
+---------------
+https://fakestoreapi.com/products/category/men's clothing
+
+Womens Clothing Data
+---------------
+https://fakestoreapi.com/products/category/women's clothing
+
+Single Product api
+-------------------
+https://fakestoreapi.com/products/${id}

@@ -1,0 +1,13 @@
+.productDContainer {
+  display: flex;
+  width: 1000px;
+  margin: 50px auto;
+  /* box-shadow: 0 0 10px rgba(33, 80, 33, 0.848); */
+}
+.imageContainer {
+  width: 40%;
+}
+.contentContainer {
+  width: 60%;
+  padding: 50px;
+}
